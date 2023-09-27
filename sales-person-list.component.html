@@ -1,0 +1,15 @@
+
+<h2>sales persons List </h2>
+<table class="table table-hover">
+    <thead class="table-dark"> 
+        <tr>
+            <th>FirstName</th><th>LastName</th><th>EMail</th><th>SalesCount</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr let *ngFor="let t of salesPersonList" >
+        <td>{{t.FirstName}}</td><td>{{t.LastName}}</td><td>{{t.EMail}}</td><td>{{t.SalesCount}}</td>
+      </tr>
+    </tbody>
+    
+    </table>
